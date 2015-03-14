@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  margin:0 auto;
+  width: 30em
+}
+
+.stbody {
+  min-height:70px;
+  margin-bottom:10px;
+  border-bottom:dashed 1px #c00
+}
+
+.stimg {
+  float:left
+}
+
+.stprofileimg {
+  width:60px
+}
+
+.sttext {
+  margin-left:70px;
+  font-size:12px;
+  line-height:18px;
+  min-height:50px;
+  word-wrap:break-word;
+  overflow:hidden;
+  padding:5px;
+  display:block
+}
+
+.sttext strong {
+  display:block
+}
+
+.sttime {
+  font-size:11px;
+  color:#999;
+  font-family:Arial,Helvetica,sans-serif
+}
+
+.stdelete {
+  color:#dedede;
+  float:right;
+  cursor:pointer
+}
+
+.stdelete:hover {
+  color:#333
+}
+
+.stupdatebox {
+  width:560px;
+  padding:10px
+}
+
+.stpostbutton {
+  margin-bottom:20px
+}
+
+#mainContent {
+  width:600px;
+  float:left
+}
